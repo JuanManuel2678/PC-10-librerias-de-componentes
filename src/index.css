@@ -1,0 +1,21 @@
+.mainContainer {
+    width: 100%;
+    min-height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.imageList {
+ place-items: center;
+ display: flex;
+ justify-content: center;
+}
+
+.infoContainer {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
