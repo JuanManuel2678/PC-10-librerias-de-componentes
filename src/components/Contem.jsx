@@ -47,7 +47,7 @@ const card = (
 
 
     </CardContent>
-    <CardActions>
+    <CardActions >
     <ButtonGroup variant="contained" aria-label="Basic button group" sx={{height: 50, width: 200, border: 'white', fontSize: 30}}>
       <Button sx={{color: 'orange', width: 1/3, background: 'white', fontSize: 30}}>+</Button>
       <Button sx={{color: 'black', width: 1/3, background: 'white', fontSize: 20}}>0</Button>
@@ -55,7 +55,7 @@ const card = (
     </ButtonGroup>
        <Button 
        variant="contained" 
-       sx={{background: 'orange', color:'black', width: 400, height: 50}}
+       sx={{background: 'orange', color:'black', width: 350, height: 50}}
        startIcon={ <ShoppingCartOutlinedIcon />}>
         Add to Cart
       </Button>
@@ -65,7 +65,7 @@ const card = (
 
 export default function OutlinedCard() {
   return (
-    <Box sx={{ minWidth: 275, width: 600 ,height: 630, px: 5}}>
+    <Box sx={{ minWidth: 275, width: 600 ,height: 630, px: 10}}>
       <Card variant="outlined">{card}</Card>
     </Box>
   );
